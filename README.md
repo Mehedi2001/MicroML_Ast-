@@ -13,5 +13,3 @@ This is a single-page .NET web application that parses MicroML code and displays
 
 ![Image](https://github.com/user-attachments/assets/91591c63-30b6-4c2c-bbab-e52651bbfc0e)
 
-## License
-MIT License
