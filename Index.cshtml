@@ -1,0 +1,47 @@
+@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <h1>MicroML AST Visualizer</h1>
+    <textarea id="micromlInput" rows="10" placeholder="Enter MicroML code here..."></textarea>
+    <button onclick="parseCode()">Generate AST</button>
+    <div id="astDisplay"></div>
+
+    <script>
+        async function parseCode() {
+            const code = document.getElementById('micromlInput').value;
+            const res = await fetch('/api/ast', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ code })
+            });
+            const ast = await res.json();
+            renderAST(ast);
+        }
+
+        function renderAST(ast) {
+            const container = document.getElementById('astDisplay');
+            container.innerHTML = '';
+            const ul = document.createElement('ul');
+            buildTree(ast, ul);
+            container.appendChild(ul);
+        }
+
+        function buildTree(node, parent) {
+            const li = document.createElement('li');
+            li.textContent = node.type + (node.value ? ': ' + node.value : '');
+            parent.appendChild(li);
+            if (node.children?.length) {
+                const ul = document.createElement('ul');
+                node.children.forEach(c => buildTree(c, ul));
+                li.appendChild(ul);
+            }
+        }
+    </script>
+</body>
+</html>
