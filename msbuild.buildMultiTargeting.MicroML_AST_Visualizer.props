@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MicroML_AST_Visualizer.props" />
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MicroML_AST_Visualizer/css/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"242"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 05:06:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MicroML_AST_Visualizer/css/style.eirzad8zf8.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eirzad8zf8"},{"Name":"integrity","Value":"sha256-BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM="},{"Name":"label","Value":"_content/MicroML_AST_Visualizer/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"242"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 05:06:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

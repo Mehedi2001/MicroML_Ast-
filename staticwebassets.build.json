@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "8XldQoJ4kxBW7tu9VLeQjl7fbVS3I3oA3htsOPGmrvc=",
+  "Source": "MicroML_AST_Visualizer",
+  "BasePath": "_content/MicroML_AST_Visualizer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MicroML_AST_Visualizer\\wwwroot",
+      "Source": "MicroML_AST_Visualizer",
+      "ContentRoot": "E:\\WSU Files\\CS 510\\MicroML_AST_Visualizer\\wwwroot\\",
+      "BasePath": "_content/MicroML_AST_Visualizer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\WSU Files\\CS 510\\MicroML_AST_Visualizer\\wwwroot\\css\\style.css",
+      "SourceId": "MicroML_AST_Visualizer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\WSU Files\\CS 510\\MicroML_AST_Visualizer\\wwwroot\\",
+      "BasePath": "_content/MicroML_AST_Visualizer",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eirzad8zf8",
+      "Integrity": "BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "E:\\WSU Files\\CS 510\\MicroML_AST_Visualizer\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 05:06:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.eirzad8zf8.css",
+      "AssetFile": "E:\\WSU Files\\CS 510\\MicroML_AST_Visualizer\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 05:06:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eirzad8zf8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BlSe58KLuQkWkx7BNmuzveDOp/E43UH92QJRIwgWiQM="
+        }
+      ]
+    }
+  ]
+}

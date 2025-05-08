@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\WSU Files\\CS 510\\MicroML_AST_Visualizer\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MicroML_AST_Visualizer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MicroML_AST_Visualizer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MicroML_AST_Visualizer.props",
+      "PackagePath": "build\\MicroML_AST_Visualizer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MicroML_AST_Visualizer.props",
+      "PackagePath": "buildMultiTargeting\\MicroML_AST_Visualizer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MicroML_AST_Visualizer.props",
+      "PackagePath": "buildTransitive\\MicroML_AST_Visualizer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
